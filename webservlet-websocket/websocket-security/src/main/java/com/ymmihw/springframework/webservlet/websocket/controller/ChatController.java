@@ -10,8 +10,8 @@ import com.ymmihw.springframework.webservlet.websocket.model.OutputMessage;
 
 @Controller
 public class ChatController {
-  @MessageMapping("/chat")
-  @SendTo("/secured/topic/messages")
+  @MessageMapping("/secured/chat")
+  @SendTo("/secured/topic")
   public OutputMessage send(final Message message) throws Exception {
     final String time = new SimpleDateFormat("HH:mm").format(new Date());
     return new OutputMessage(message.getFrom(), message.getText(), time);
