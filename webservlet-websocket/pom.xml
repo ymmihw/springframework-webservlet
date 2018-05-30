@@ -22,5 +22,6 @@
   <module>websocket-introduction</module>
   <module>websocket-sendtouser</module>
   <module>websocket-client-api</module>
+  <module>websocket-security</module>
  </modules>
 </project>
