@@ -23,5 +23,6 @@
   <module>websocket-sendtouser</module>
   <module>websocket-client-api</module>
   <module>websocket-security</module>
+  <module>reactive-websocket</module>
  </modules>
 </project>
