@@ -8,4 +8,4 @@ websocket-sendtouser | [A Quick Example of Spring Websockets’ @SendToUser Anno
 websocket-security | [Intro to Security and WebSockets](http://www.baeldung.com/spring-security-websockets)
 reactive-websocket | [Reactive WebSockets with Spring 5](http://www.baeldung.com/spring-5-reactive-websockets)
 web-ResponseStatusException | [Spring ResponseStatusException](http://www.baeldung.com/spring-response-status-exception)
-rest-template | [The Guide to RestTemplate](http://www.baeldung.com/rest-template)
+rest-template-intro | [The Guide to RestTemplate](http://www.baeldung.com/rest-template)
