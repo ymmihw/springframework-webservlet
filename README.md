@@ -9,3 +9,4 @@ websocket-security | [Intro to Security and WebSockets](http://www.baeldung.com/
 reactive-websocket | [Reactive WebSockets with Spring 5](http://www.baeldung.com/spring-5-reactive-websockets)
 web-ResponseStatusException | [Spring ResponseStatusException](http://www.baeldung.com/spring-response-status-exception)
 rest-template-intro | [The Guide to RestTemplate](http://www.baeldung.com/rest-template)
+rest-template-error-handling | [Spring RestTemplate Error Handling](https://www.baeldung.com/spring-rest-template-error-handling)
