@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.baeldung.springmvcforms")
+@ComponentScan(basePackages = "com.ymmihw.springframework.form")
 public class ApplicationConfiguration implements WebMvcConfigurer {
 
   @Override
