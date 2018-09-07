@@ -20,3 +20,4 @@ Module | Article
 --|--
 form-intro | [Getting Started with Forms in Spring MVC](http://www.baeldung.com/spring-mvc-form-tutorial)
 form-tags | [Exploring SpringMVC’s Form Tag Library](http://www.baeldung.com/spring-mvc-form-tags)
+form-upload | [File Upload with Spring MVC](http://www.baeldung.com/spring-file-upload)
