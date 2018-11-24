@@ -26,3 +26,4 @@ rest-template-interceptor | [Using the Spring RestTemplate Interceptor](https://
 spring-apache-file-upload | [Spring and Apache FileUpload](https://www.baeldung.com/spring-apache-file-upload)
 spring-controller-return-image-file | [Returning an Image or a File with Spring](http://www.baeldung.com/spring-controller-return-image-file)
 spring-web-image-media-data | [Returning Image/Media Data with Spring MVC](http://www.baeldung.com/spring-mvc-image-media-data)
+custom-http-status-code | [Returning Custom Status Codes from Spring Controllers](http://www.baeldung.com/spring-mvc-controller-custom-http-status-code)
