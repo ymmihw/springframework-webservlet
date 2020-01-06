@@ -13,6 +13,10 @@ import java.util.Arrays;
 import java.util.Set;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
+import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -22,6 +26,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.http.client.ClientHttpRequestFactory;
 import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
+import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RequestCallback;
 import org.springframework.web.client.RestTemplate;
@@ -30,18 +35,22 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.base.Charsets;
 import com.ymmihw.springframework.web.web.dto.Foo;
 
-public class RestTemplateBasicLiveTest {
 
+@RunWith(SpringRunner.class)
+@SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
+public class RestTemplateBasicLiveTest {
+  @LocalServerPort
+  private int port;
   private RestTemplate restTemplate;
-  private static final String fooResourceUrl = "http://localhost:8082/spring-rest/foos";
+  private String fooResourceUrl;
 
   @Before
   public void beforeTest() {
     restTemplate = new RestTemplate();
+    fooResourceUrl = "http://localhost:" + port + "/spring-rest/foos";
   }
 
   // GET
-
   @Test
   public void givenResourceUrl_whenSendGetForRequestEntity_thenStatusOk() throws IOException {
     final ResponseEntity<Foo> response =

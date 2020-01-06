@@ -11,6 +11,7 @@ public class StompClient {
 
   private static String URL = "ws://localhost:8080/chat";
 
+  @SuppressWarnings("resource")
   public static void main(String[] args) {
     WebSocketClient client = new StandardWebSocketClient();
     WebSocketStompClient stompClient = new WebSocketStompClient(client);

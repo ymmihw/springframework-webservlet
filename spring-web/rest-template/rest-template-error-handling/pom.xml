@@ -7,9 +7,7 @@
   <artifactId>rest-template</artifactId>
   <version>0.0.1-SNAPSHOT</version>
  </parent>
- <groupId>com.ymmihw.springframework.web</groupId>
  <artifactId>rest-template-error-handling</artifactId>
- <version>0.0.1-SNAPSHOT</version>
  <name>rest-template-error-handling</name>
  <url>http://maven.apache.org</url>
  <properties>

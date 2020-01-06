@@ -25,7 +25,7 @@ public class UploadController {
   @RequestMapping(value = "/upload", method = RequestMethod.POST)
   public String handleUpload(HttpServletRequest request) {
     System.out.println(System.getProperty("java.io.tmpdir"));
-    boolean isMultipart = ServletFileUpload.isMultipartContent(request);
+    ServletFileUpload.isMultipartContent(request);
     // Create a factory for disk-based file items
     DiskFileItemFactory factory = new DiskFileItemFactory();
     factory.setRepository(new File(System.getProperty("java.io.tmpdir")));
@@ -54,13 +54,13 @@ public class UploadController {
       FileItemIterator iterStream = upload.getItemIterator(request);
       while (iterStream.hasNext()) {
         FileItemStream item = iterStream.next();
-        String name = item.getFieldName();
+        item.getFieldName();
         InputStream stream = item.openStream();
         if (!item.isFormField()) {
           // Process the InputStream
         } else {
           // process form fields
-          String formFieldValue = Streams.asString(stream);
+          Streams.asString(stream);
         }
       }
       return "success!";

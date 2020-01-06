@@ -7,9 +7,7 @@
   <artifactId>webservlet-websocket</artifactId>
   <version>0.0.1-SNAPSHOT</version>
  </parent>
- <groupId>com.ymmihw.springframework</groupId>
  <artifactId>websocket-client-api</artifactId>
- <version>0.0.1-SNAPSHOT</version>
  <name>websocket-client-api</name>
  <url>http://maven.apache.org</url>
  <properties>
