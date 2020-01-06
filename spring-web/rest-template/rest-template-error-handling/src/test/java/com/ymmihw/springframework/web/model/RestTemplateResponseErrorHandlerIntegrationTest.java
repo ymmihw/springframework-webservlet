@@ -40,7 +40,7 @@ public class RestTemplateResponseErrorHandlerIntegrationTest {
     this.server.expect(ExpectedCount.once(), requestTo("/bars/4242"))
         .andExpect(method(HttpMethod.GET)).andRespond(withStatus(HttpStatus.NOT_FOUND));
 
-    Bar response = restTemplate.getForObject("/bars/4242", Bar.class);
+    restTemplate.getForObject("/bars/4242", Bar.class);
     this.server.verify();
   }
 }

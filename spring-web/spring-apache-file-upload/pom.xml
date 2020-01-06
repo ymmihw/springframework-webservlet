@@ -9,7 +9,6 @@
  </parent>
  <groupId>com.ymmihw.springframework.web</groupId>
  <artifactId>spring-apache-file-upload</artifactId>
- <version>0.0.1-SNAPSHOT</version>
  <name>spring-apache-file-upload</name>
  <url>http://maven.apache.org</url>
  <properties>

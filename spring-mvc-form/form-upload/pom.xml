@@ -9,7 +9,6 @@
  </parent>
  <groupId>com.ymmihw.springframework.form</groupId>
  <artifactId>form-upload</artifactId>
- <version>0.0.1-SNAPSHOT</version>
  <name>form-upload</name>
  <url>http://maven.apache.org</url>
  <properties>

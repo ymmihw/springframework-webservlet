@@ -27,4 +27,10 @@
    <scope>test</scope>
   </dependency>
  </dependencies>
+ <modules>
+  <module>spring-mvc-form</module>
+  <module>spring-web</module>
+  <module>web-ResponseStatusException</module>
+  <module>webservlet-websocket</module>
+ </modules>
 </project>
