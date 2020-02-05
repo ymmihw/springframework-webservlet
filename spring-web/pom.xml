@@ -26,5 +26,6 @@
   <module>spring-apache-file-upload</module>
   <module>spring-controller-return-image-file</module>
   <module>spring-web-image-media-data</module>
+  <module>read-request-multiple-times</module>
  </modules>
 </project>
