@@ -1,0 +1,1 @@
+visit http://localhost:8080/resources/chat.html
