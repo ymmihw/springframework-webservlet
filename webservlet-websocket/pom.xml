@@ -23,5 +23,6 @@
   <module>websocket-security</module>
   <module>websocket-helloworld</module>
   <module>websocket-external-broker</module>
+  <module>websocket-send-message-to-user</module>
  </modules>
 </project>

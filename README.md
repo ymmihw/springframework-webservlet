@@ -8,6 +8,7 @@ websocket-external-broker | [External Broker](https://docs.spring.io/spring-fram
 websocket-client-api | [A Java Client for a WebSockets API](http://www.baeldung.com/websockets-api-java-spring-client)
 websocket-sendtouser | [A Quick Example of Spring Websockets’ @SendToUser Annotation](http://www.baeldung.com/spring-websockets-sendtouser)
 websocket-security | [Intro to Security and WebSockets](http://www.baeldung.com/spring-security-websockets)
+websocket-send-message-to-user | [Spring WebSockets: Send Messages to a Specific User](https://www.baeldung.com/spring-websockets-send-message-to-user)
 web-ResponseStatusException | [Spring ResponseStatusException](http://www.baeldung.com/spring-response-status-exception)
 
 ### form
