@@ -6,7 +6,7 @@ websocket-helloworld | [Spring Boot + WebSocket Simple Example](https://www.java
 websocket-introduction | [Intro to WebSockets with Spring](http://www.baeldung.com/websockets-spring)
 websocket-external-broker | [External Broker](https://docs.spring.io/spring-framework/docs/5.3.1/reference/html/web.html#websocket-stomp-handle-broker-relay)
 websocket-client-api | [A Java Client for a WebSockets API](http://www.baeldung.com/websockets-api-java-spring-client)
-websocket-sendtouser | [A Quick Example of Spring Websockets’ @SendToUser Annotation](http://www.baeldung.com/spring-websockets-sendtouser)
+websocket-sendtouser-annotation | [A Quick Example of Spring Websockets’ @SendToUser Annotation](http://www.baeldung.com/spring-websockets-sendtouser)
 websocket-security | [Intro to Security and WebSockets](http://www.baeldung.com/spring-security-websockets)
 websocket-send-message-to-user | [Spring WebSockets: Send Messages to a Specific User](https://www.baeldung.com/spring-websockets-send-message-to-user)
 web-ResponseStatusException | [Spring ResponseStatusException](http://www.baeldung.com/spring-response-status-exception)
