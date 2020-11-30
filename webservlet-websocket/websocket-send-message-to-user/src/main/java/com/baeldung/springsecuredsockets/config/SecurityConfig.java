@@ -1,7 +1,6 @@
 package com.baeldung.springsecuredsockets.config;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
@@ -30,7 +29,6 @@ import com.baeldung.springsecuredsockets.security.CustomLogoutSuccessHandler;
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
 @EnableWebSecurity
-@ComponentScan("com.baeldung.springsecuredsockets")
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
   /**

@@ -4,18 +4,15 @@ import static com.baeldung.springsecuredsockets.Constants.SECURED_CHAT;
 import static com.baeldung.springsecuredsockets.Constants.SECURED_CHAT_HISTORY;
 import static com.baeldung.springsecuredsockets.Constants.SECURED_CHAT_ROOM;
 import static com.baeldung.springsecuredsockets.Constants.SECURED_CHAT_SPECIFIC_USER;
-
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
-import org.springframework.web.socket.config.annotation.AbstractWebSocketMessageBrokerConfigurer;
 import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBroker;
 import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
+import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
 
 @Configuration
 @EnableWebSocketMessageBroker
-@ComponentScan("com.baeldung.springsecuredsockets.controllers")
-public class SocketBrokerConfig extends AbstractWebSocketMessageBrokerConfigurer {
+public class SocketBrokerConfig implements WebSocketMessageBrokerConfigurer {
 
   @Override
   public void configureMessageBroker(MessageBrokerRegistry config) {
