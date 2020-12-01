@@ -1,4 +1,4 @@
-package com.baeldung.springsecuredsockets.security;
+package com.ymmihw.springframework.webservlet.websocket.security;
 
 
 import org.springframework.http.HttpStatus;

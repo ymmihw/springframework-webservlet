@@ -1,4 +1,4 @@
-package com.baeldung.springsecuredsockets.security;
+package com.ymmihw.springframework.webservlet.websocket.security;
 
 import java.io.IOException;
 import javax.servlet.http.HttpServletRequest;

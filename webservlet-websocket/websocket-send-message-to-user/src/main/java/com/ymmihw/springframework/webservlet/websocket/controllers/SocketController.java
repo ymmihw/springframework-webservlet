@@ -1,9 +1,9 @@
-package com.baeldung.springsecuredsockets.controllers;
+package com.ymmihw.springframework.webservlet.websocket.controllers;
 
-import static com.baeldung.springsecuredsockets.Constants.SECURED_CHAT;
-import static com.baeldung.springsecuredsockets.Constants.SECURED_CHAT_HISTORY;
-import static com.baeldung.springsecuredsockets.Constants.SECURED_CHAT_ROOM;
-import static com.baeldung.springsecuredsockets.Constants.SECURED_CHAT_SPECIFIC_USER;
+import static com.ymmihw.springframework.webservlet.websocket.Constants.SECURED_CHAT;
+import static com.ymmihw.springframework.webservlet.websocket.Constants.SECURED_CHAT_HISTORY;
+import static com.ymmihw.springframework.webservlet.websocket.Constants.SECURED_CHAT_ROOM;
+import static com.ymmihw.springframework.webservlet.websocket.Constants.SECURED_CHAT_SPECIFIC_USER;
 import java.security.Principal;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -14,8 +14,8 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Controller;
-import com.baeldung.springsecuredsockets.transfer.socket.Message;
-import com.baeldung.springsecuredsockets.transfer.socket.OutputMessage;
+import com.ymmihw.springframework.webservlet.websocket.transfer.socket.Message;
+import com.ymmihw.springframework.webservlet.websocket.transfer.socket.OutputMessage;
 
 @Controller
 public class SocketController {

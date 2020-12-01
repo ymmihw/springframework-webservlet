@@ -1,4 +1,4 @@
-package com.baeldung.springsecuredsockets.config;
+package com.ymmihw.springframework.webservlet.websocket.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.messaging.MessageSecurityMetadataSourceRegistry;

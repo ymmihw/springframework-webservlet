@@ -1,4 +1,4 @@
-package com.baeldung.springsecuredsockets.transfer.socket;
+package com.ymmihw.springframework.webservlet.websocket.transfer.socket;
 
 import lombok.Getter;
 import lombok.Setter;

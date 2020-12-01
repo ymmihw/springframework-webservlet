@@ -29,8 +29,8 @@ angularApp
    */
 
   $scope.connectAll = function (context) {
-    $scope.sendEndpoint = context + SECURED_CHAT;
-    $scope.stompClient = SocketService.connect($scope.sendEndpoint , opts, true);
+    $scope.sendEndpoint = context + "/app" + SECURED_CHAT;
+    $scope.stompClient = SocketService.connect(context + SECURED_CHAT , opts, true);
   };
 
   $scope.subscribeAll = function () { 
@@ -42,7 +42,7 @@ angularApp
    */
 
   $scope.connectSpecific = function (context) {
-    $scope.sendEndpoint = context + SECURED_CHAT_ROOM;
+    $scope.sendEndpoint = context + "/app" + SECURED_CHAT_ROOM;
     $scope.stompClient = SocketService.connect(context + SECURED_CHAT_ROOM, opts, false);
   };
 
