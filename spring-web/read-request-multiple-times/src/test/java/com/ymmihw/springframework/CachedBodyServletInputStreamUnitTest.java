@@ -1,22 +1,25 @@
 package com.ymmihw.springframework;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import javax.servlet.ReadListener;
-import org.junit.After;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mockito;
-import org.mockito.junit.MockitoJUnitRunner;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.util.StreamUtils;
-import junit.framework.TestCase;
 
-@RunWith(MockitoJUnitRunner.class)
-public class CachedBodyServletInputStreamUnitTest extends TestCase {
+@ExtendWith(MockitoExtension.class)
+public class CachedBodyServletInputStreamUnitTest {
 
   private CachedBodyServletInputStream servletInputStream;
 
-  @After
+  @AfterEach
   public void cleanUp() throws IOException {
     if (null != servletInputStream) {
       servletInputStream.close();
@@ -84,7 +87,7 @@ public class CachedBodyServletInputStreamUnitTest extends TestCase {
     assertEquals(new String(cachedBody), new String(byteArrayOutputStream.toByteArray()));
   }
 
-  @Test(expected = UnsupportedOperationException.class)
+  @Test
   public void testGivenServletInputStreamCreated_whenCalledIsRead_ThenThrowsException()
       throws IOException {
     // Given
@@ -92,7 +95,8 @@ public class CachedBodyServletInputStreamUnitTest extends TestCase {
     servletInputStream = new CachedBodyServletInputStream(cachedBody);
 
     // when
-    servletInputStream.setReadListener(Mockito.mock(ReadListener.class));
+    assertThrows(UnsupportedOperationException.class,
+        () -> servletInputStream.setReadListener(Mockito.mock(ReadListener.class)));
 
   }
 

@@ -3,17 +3,16 @@ package com.ymmihw.springframework;
 import java.io.IOException;
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mockito;
-import org.mockito.junit.MockitoJUnitRunner;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.mock.web.MockHttpServletResponse;
-import junit.framework.TestCase;
 
-@RunWith(MockitoJUnitRunner.class)
-public class ContentCachingFilterUnitTest extends TestCase {
+@ExtendWith(MockitoExtension.class)
+public class ContentCachingFilterUnitTest {
 
   @InjectMocks
   private ContentCachingFilter filterToTest;
