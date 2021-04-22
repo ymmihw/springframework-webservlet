@@ -18,11 +18,11 @@
  </dependencies>
  <modules>
   <module>websocket-introduction</module>
-  <module>websocket-sendtouser</module>
   <module>websocket-client-api</module>
   <module>websocket-security</module>
   <module>websocket-helloworld</module>
   <module>websocket-external-broker</module>
   <module>websocket-send-message-to-user</module>
+  <module>websocket-sendtouser-annotation</module>
  </modules>
 </project>
