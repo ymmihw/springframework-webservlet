@@ -1,9 +1,9 @@
-package com.baeldung.springsecuredsockets.config;
+package com.ymmihw.springframework.webservlet.websocket.config;
 
-import static com.baeldung.springsecuredsockets.Constants.SECURED_CHAT;
-import static com.baeldung.springsecuredsockets.Constants.SECURED_CHAT_HISTORY;
-import static com.baeldung.springsecuredsockets.Constants.SECURED_CHAT_ROOM;
-import static com.baeldung.springsecuredsockets.Constants.SECURED_CHAT_SPECIFIC_USER;
+import static com.ymmihw.springframework.webservlet.websocket.Constants.SECURED_CHAT;
+import static com.ymmihw.springframework.webservlet.websocket.Constants.SECURED_CHAT_HISTORY;
+import static com.ymmihw.springframework.webservlet.websocket.Constants.SECURED_CHAT_ROOM;
+import static com.ymmihw.springframework.webservlet.websocket.Constants.SECURED_CHAT_SPECIFIC_USER;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
 import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBroker;
@@ -17,7 +17,7 @@ public class SocketBrokerConfig implements WebSocketMessageBrokerConfigurer {
   @Override
   public void configureMessageBroker(MessageBrokerRegistry config) {
     config.enableSimpleBroker(SECURED_CHAT_HISTORY, SECURED_CHAT_SPECIFIC_USER);
-    config.setApplicationDestinationPrefixes("/");
+    config.setApplicationDestinationPrefixes("/app");
     config.setUserDestinationPrefix("/secured/user");
   }
 

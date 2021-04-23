@@ -1,4 +1,4 @@
-package com.baeldung.springsecuredsockets.config;
+package com.ymmihw.springframework.webservlet.websocket.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,9 +13,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
-import com.baeldung.springsecuredsockets.security.CustomAccessDeniedHandler;
-import com.baeldung.springsecuredsockets.security.CustomLoginSuccessHandler;
-import com.baeldung.springsecuredsockets.security.CustomLogoutSuccessHandler;
+import com.ymmihw.springframework.webservlet.websocket.security.CustomAccessDeniedHandler;
+import com.ymmihw.springframework.webservlet.websocket.security.CustomLoginSuccessHandler;
+import com.ymmihw.springframework.webservlet.websocket.security.CustomLogoutSuccessHandler;
 
 /**
  * @EnableGlobalAuthentication annotates:

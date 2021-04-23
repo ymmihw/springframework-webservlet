@@ -1,4 +1,4 @@
-package com.baeldung.springsecuredsockets;
+package com.ymmihw.springframework.webservlet.websocket;
 
 public class Constants {
     public static final String SECURED_CHAT_HISTORY = "/secured/history";
