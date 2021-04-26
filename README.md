@@ -32,3 +32,4 @@ spring-web-image-media-data | [Returning Image/Media Data with Spring MVC](http:
 custom-http-status-code | [Returning Custom Status Codes from Spring Controllers](http://www.baeldung.com/spring-mvc-controller-custom-http-status-code)
 read-request-multiple-times | [Reading HttpServletRequest Multiple Times in Spring](https://www.baeldung.com/spring-reading-httpservletrequest-multiple-times)
 spring-rest-api-global-error-handler | [Custom Error Message Handling for REST API](http://www.baeldung.com/global-error-handler-in-a-spring-rest-api)
+spring-rest-api-metrics | [Metrics for your Spring REST API](http://www.baeldung.com/spring-rest-api-metrics)
