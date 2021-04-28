@@ -33,3 +33,16 @@ custom-http-status-code | [Returning Custom Status Codes from Spring Controllers
 read-request-multiple-times | [Reading HttpServletRequest Multiple Times in Spring](https://www.baeldung.com/spring-reading-httpservletrequest-multiple-times)
 spring-rest-api-global-error-handler | [Custom Error Message Handling for REST API](http://www.baeldung.com/global-error-handler-in-a-spring-rest-api)
 spring-rest-api-metrics | [Metrics for your Spring REST API](http://www.baeldung.com/spring-rest-api-metrics)
+
+### spring-mvc
+Module | Article
+--|--
+session-attributes | [Session Attributes in Spring MVC](http://www.baeldung.com/spring-mvc-session-attributes)
+view-resolver | [A Guide to the ViewResolver in Spring MVC](http://www.baeldung.com/spring-mvc-view-resolver-tutorial)
+custom-property-editor | [Spring Custom Property Editor](http://www.baeldung.com/spring-mvc-custom-property-editor)
+deferred-result | [Guide to DeferredResult in Spring](http://www.baeldung.com/spring-deferred-result)
+web-contexts | [Spring Web Contexts](http://www.baeldung.com/spring-web-contexts)
+spring-mvc-sse-streams | [Spring MVC Streaming and SSE Request Processing](https://www.baeldung.com/spring-mvc-sse-streams)
+rss-feed | [Display RSS Feed with Spring MVC](https://www.baeldung.com/spring-mvc-rss-feed)
+model-model-map-model-view | [Model, ModelMap, and ModelView in Spring MVC](https://www.baeldung.com/spring-mvc-model-model-map-model-view)
+spring-mvc-custom-validator | [Spring MVC Custom Validation](http://www.baeldung.com/spring-mvc-custom-validator)
