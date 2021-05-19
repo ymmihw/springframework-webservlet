@@ -9,7 +9,6 @@ websocket-client-api | [A Java Client for a WebSockets API](http://www.baeldung.
 websocket-sendtouser-annotation | [A Quick Example of Spring Websockets’ @SendToUser Annotation](http://www.baeldung.com/spring-websockets-sendtouser)
 websocket-security | [Intro to Security and WebSockets](http://www.baeldung.com/spring-security-websockets)
 websocket-send-message-to-user | [Spring WebSockets: Send Messages to a Specific User](https://www.baeldung.com/spring-websockets-send-message-to-user)
-web-ResponseStatusException | [Spring ResponseStatusException](http://www.baeldung.com/spring-response-status-exception)
 
 ### form
 
@@ -33,6 +32,8 @@ custom-http-status-code | [Returning Custom Status Codes from Spring Controllers
 read-request-multiple-times | [Reading HttpServletRequest Multiple Times in Spring](https://www.baeldung.com/spring-reading-httpservletrequest-multiple-times)
 spring-rest-api-global-error-handler | [Custom Error Message Handling for REST API](http://www.baeldung.com/global-error-handler-in-a-spring-rest-api)
 spring-rest-api-metrics | [Metrics for your Spring REST API](http://www.baeldung.com/spring-rest-api-metrics)
+web-ResponseStatusException | [Spring ResponseStatusException](http://www.baeldung.com/spring-response-status-exception)
+handler-interceptor-vs-filter | [HandlerInterceptors vs. Filters in Spring MVC](https://www.baeldung.com/spring-mvc-handlerinterceptor-vs-filter)
 
 ### spring-mvc
 Module | Article

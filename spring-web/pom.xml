@@ -30,5 +30,6 @@
   <module>spring-rest-api-global-error-handler</module>
   <module>spring-rest-api-metrics</module>
   <module>web-ResponseStatusException</module>
+  <module>handler-interceptor-vs-filter</module>
  </modules>
 </project>
