@@ -28,5 +28,7 @@
   <module>spring-web-image-media-data</module>
   <module>read-request-multiple-times</module>
   <module>spring-rest-api-global-error-handler</module>
+  <module>spring-rest-api-metrics</module>
+  <module>web-ResponseStatusException</module>
  </modules>
 </project>

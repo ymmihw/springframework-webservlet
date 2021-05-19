@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.ymmihw.spring.mvc.PassParametersControllerIntegrationTest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.26 s - in com.ymmihw.spring.mvc.PassParametersControllerIntegrationTest
