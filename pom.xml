@@ -62,6 +62,7 @@
   <module>spring-web</module>
   <module>web-ResponseStatusException</module>
   <module>webservlet-websocket</module>
+  <module>spring-mvc</module>
  </modules>
  <build>
   <plugins>
