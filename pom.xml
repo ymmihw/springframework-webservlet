@@ -14,6 +14,7 @@
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   <rest-assured.version>4.3.3</rest-assured.version>
   <groovy.version>3.0.2</groovy.version>
+  <commons-io.version>2.9.0</commons-io.version>
  </properties>
 
  <parent>
